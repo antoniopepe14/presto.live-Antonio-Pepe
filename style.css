@@ -1,0 +1,47 @@
+/* FONT */
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Titillium Web', sans-serif; */
+
+:root{
+    --b: rgb(23, 23, 23) ;
+    --y: rgb(12,146,101) ;
+    --w: rgb(230,230,230) ;
+}
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, .h1, .h2, .h3, .h4{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* testi e background con le root */
+
+.text-y{
+    color: var(--y) !important ;
+}
+.text-w{
+    color: var(--w) !important ;
+}
+.bg-y{
+    background-color: var(--y);
+}
+.bg-w{
+    background-color: var(--w);
+}
+.bg-b{
+    background-color: var(--b);
+}
+.logo{
+    height: 60px;
+    width: 30px;
+}
+.navbar{
+    transition: 0.5s;
+    height: 86px;
+}
+#containerfluid{
+    transition: 0.5s;
+}
