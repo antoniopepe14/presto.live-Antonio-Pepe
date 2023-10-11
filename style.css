@@ -37,6 +37,7 @@ h1, h2, h3, h4, .h1, .h2, .h3, .h4{
 .logo{
     height: 60px;
     width: 30px;
+    transition: 0.5s;
 }
 .navbar{
     transition: 0.5s;
@@ -44,4 +45,15 @@ h1, h2, h3, h4, .h1, .h2, .h3, .h4{
 }
 #containerfluid{
     transition: 0.5s;
+}
+.logorotate{
+    transform: rotate(180deg);
+}
+
+/* header */
+
+.header{
+    background-image: url("https://picsum.photos/2000");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

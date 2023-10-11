@@ -1,9 +1,11 @@
 // elementi catturati
 
 let navbar = document.querySelector("#navbar");
-let links = document.querySelectorAll(".nav-link");
+let links = document.querySelectorAll(".links");
 let logo = document.querySelector("#logo");
 let containerfluid= document.querySelector("#container-fluid");
+let hamburger = document.querySelector("#hamburger");
+
 
 // foreach default
 
@@ -78,6 +80,10 @@ window.addEventListener("scroll", ()=>{
             })
             
         })
-    }
-    
+    } 
 })
+
+hamburger.addEventListener("click",()=>{
+    logo.classList.toggle("logorotate");
+})
+
