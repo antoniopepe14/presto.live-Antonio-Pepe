@@ -54,6 +54,29 @@ h1, h2, h3, h4, .h1, .h2, .h3, .h4{
 
 .header{
     background-image: url("https://picsum.photos/2000");
+    position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+/* sezione numeri */
+
+.number{
+    font-weight: 700;
+    font-size: 50px;
+}
+.border{ border: 3px solid var(--b) !important ;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+.review-card {
+    height: 60%;
+    width: 80%;
+    border: 2px solid var(--b);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
